@@ -1,0 +1,21 @@
+{
+  "name": "gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-yoga": "^1.18.1",
+    "mongoose": "^5.6.9",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/index.js --ext js,graphql --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
